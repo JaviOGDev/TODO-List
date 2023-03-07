@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 
 const EditForm = ({ editedTask, updateTask, closeEditMode }) => {
   const [updateTaskName, setUpdatedTaskName] = useState(editedTask.name);
-  console.log(updateTaskName);
-
+  123;
   useEffect(() => {
     const closeModalIfEscaped = (e) => {
       e.key === "Escape" && closeEditMode();
